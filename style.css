@@ -1,3 +1,10 @@
+@font-face{
+	font-family: 'EGA8';
+	src: url('resources/Px_IBM_EGA8.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body
 {
 	color: lightgray;
@@ -6,8 +13,8 @@ body
 
 p, h1, h2, h3, h4, a, i, td, li
 {
-	font-family: "Px IBM EGA8";
-	font-size: 12.5pt;
+	font-family: 'EGA8';
+	font-size: 12pt;
 }
 
 a
