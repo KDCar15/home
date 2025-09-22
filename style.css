@@ -1,0 +1,66 @@
+body
+{
+	color: lightgray;
+	background: black;
+}
+
+p, h1, h2, h3, h4, a, i, td, li
+{
+	font-family: "Px IBM EGA8";
+	font-size: 12.5pt;
+}
+
+a
+{
+	color: lightgray;
+	text-decoration: underline;
+}
+
+h2
+{
+	background-color: lightgray;
+	color: black;
+	text-align: center;
+}
+
+.container
+{
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content
+{
+	border: 1px solid white;
+	padding: 15px;
+	text-align: justify;
+}
+
+p:first-child,
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+a:first-child,
+i:first-child,
+td:first-child,
+ul:first-child
+{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+p:last-child,
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+a:last-child,
+i:last-child,
+td:last-child,
+ul:last-child
+{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
